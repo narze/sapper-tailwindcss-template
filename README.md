@@ -30,6 +30,10 @@ Open up [localhost:3000](http://localhost:3000) and start clicking around.
 
 Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
 
+### Deploying project on Vercel
+
+Vercel will automatically choose Sapper as the framework preset, however to make the build pass you have to override its build command with `yarn run export` instead.
+
 ## Structure
 
 See in [sapper-template](https://github.com/sveltejs/sapper-template#structure)
